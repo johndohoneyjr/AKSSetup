@@ -1,0 +1,6 @@
+FROM jupyter/all-spark-notebook:latest
+
+# Additional python packages...
+RUN pip install --pre azure-ai-ml
+RUN pip install pandas
+RUN pip install scikit-learn
